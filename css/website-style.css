@@ -78,7 +78,7 @@ header .sticky
     background-color: #FFF !important;
     color: #000 !important;
     transition: background .6s;;
-    z-index: 99999999;
+    z-index: 999;
 }
 
 header nav h2 {text-transform: uppercase; cursor: pointer;}
@@ -471,7 +471,7 @@ header .content a:hover {background-color: var(--main-color);color: #FFF}
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.9);
-    z-index: 999;
+    z-index: 9999;
     padding: 60px 0;
     visibility: hidden;
     opacity: 0;
