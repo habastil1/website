@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "myWebsite",
+  "main": "plugins.js",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habastil1/website.git"
+  },
+  "author": "Salah",
+  "license": "Mit",
+  "bugs": {
+    "url": "https://github.com/habastil1/website/issues"
+  },
+  "homepage": "https://github.com/habastil1/website#readme"
+}

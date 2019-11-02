@@ -26,7 +26,11 @@ window.onscroll = function () {
     }
 }   
     toTop.onclick = function() {
-      window.scrollTo(0,0);  
+      window.scrollTo({
+          top: 0,
+          left:0,
+          behavior: "smooth"
+      });  
 }
 
 /* End To Top Button */ 
@@ -209,7 +213,32 @@ for (var i = 0; i < button.length; i++) {
   });
 }
 
-
-
-
 /* End Filter Gallery */ 
+
+
+/* Start Google Map Api */
+
+
+function myMap() {
+    var mapProp = {
+        center: new google.maps.LatLng(21.42483, 39.823201),
+        zoom:8,
+    };
+    var map = new google.maps.Map(document.getElementById("map"),mapProp);
+    }
+
+
+/* End Google Map Api */
+
+
+/* Start Nice Scroll */
+
+$(document).ready(function(){
+    $("body").niceScroll({
+        cursorcolor:" #f7c552",
+        cursorwidth:"16px"
+    });
+})
+
+
+/* End Nice Scroll */ 
